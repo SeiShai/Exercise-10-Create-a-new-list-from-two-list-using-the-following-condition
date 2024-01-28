@@ -16,6 +16,14 @@ for i in first_list:
     else:
         new_list.append(i)
 
+for i in second_list:
+
+    check = i % 2
+
+    if check == 0:
+        new_list.append(i)
+    else:
+        continue
 
 
 
