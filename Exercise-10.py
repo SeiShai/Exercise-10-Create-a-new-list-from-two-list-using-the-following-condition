@@ -25,5 +25,8 @@ for i in second_list:
     else:
         continue
 
+print(first_list)
+print(second_list)
+print('The resut list:', new_list)
 
 
