@@ -7,6 +7,15 @@ first_list = [10, 20, 25, 30, 35]
 second_list = [40, 45, 60, 75, 90]
 new_list = []
 
+for i in first_list:
+
+    check = i % 2
+
+    if check == 0:
+        continue
+    else:
+        new_list.append(i)
+
 
 
 
